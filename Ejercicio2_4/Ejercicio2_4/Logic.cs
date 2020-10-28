@@ -20,7 +20,8 @@ namespace Ejercicio2_4
         {
             if (precio == 0 | precio > 50000)
             {
-                throw new PrecioErroException();
+              var mensaje = "No puede ser igual a 0 o mayor a 50000";
+                throw new PrecioErroException(mensaje);
             }
             else
             {
