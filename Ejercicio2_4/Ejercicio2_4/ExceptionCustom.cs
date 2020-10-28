@@ -9,6 +9,6 @@ namespace Ejercicio2_4
     class PrecioErroException : Exception
     {
     
-         public PrecioErroException(string mensaje) : base("El precio del producto no puede ser 0 ni mayor a 50.000" + mensaje) { }
+            public PrecioErroException(string mensaje) : base("Precio del producto erroneo " + mensaje) { }
     }
 }
