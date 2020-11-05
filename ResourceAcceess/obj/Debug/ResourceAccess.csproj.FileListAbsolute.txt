@@ -1,0 +1,15 @@
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\bin\Debug\ResourceAcceess.dll.config
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\bin\Debug\ResourceAcceess.dll
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\bin\Debug\ResourceAcceess.pdb
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\bin\Debug\Entities.dll
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\bin\Debug\EntityFramework.dll
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\bin\Debug\Entities.pdb
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\bin\Debug\Entities.dll.config
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\bin\Debug\EntityFramework.xml
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\obj\Debug\ResourceAccess.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\obj\Debug\ResourceAccess.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\obj\Debug\ResourceAccess.csproj.CopyComplete
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\obj\Debug\ResourceAcceess.dll
+C:\Users\pablo\source\repos\Ejercicio_3\ResourceAcceess\obj\Debug\ResourceAcceess.pdb
