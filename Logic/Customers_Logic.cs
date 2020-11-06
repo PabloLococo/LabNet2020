@@ -23,10 +23,7 @@ namespace Logic
             {
                 return daoCustomers.GetAll();
             }
-            catch(CustomExeptionSql ex)
-            {
-                throw ex;
-            }
+
             catch (Exception ex)
             {
                 throw ex;
@@ -41,10 +38,7 @@ namespace Logic
             {
                 return daoCustomers.GetbyId(id);
             }
-            catch (CustomExeptionSql ex)
-            {
-                throw ex;
-            }
+
             catch (Exception ex)
             {
 
@@ -56,12 +50,16 @@ namespace Logic
         {
             try
             {
+                if (customers.CustomerID == null)
+                {
+                    throw new ArgumentException();
+                }
              return   daoCustomers.Insert(customers);
             }
-            //catch (CustomExeptionSql )
-            //{
-            //    throw new ;
-            //}
+            catch (ArgumentException ex)
+            {
+                throw ex ;
+            }
             catch (Exception ex)
             {
 
@@ -76,7 +74,7 @@ namespace Logic
             {
                 daoCustomers.Update(customers);
             }
-            catch (CustomExeptionSql ex)
+            catch (ArgumentException ex)
             {
                 throw ex;
             }
@@ -89,7 +87,16 @@ namespace Logic
 
         public void DeleteCustomer(Customers customers)
         {
+            try
+            {
             daoCustomers.Delete(customers);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+          
         }
 
     }

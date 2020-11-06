@@ -1,0 +1,10 @@
+2020-11-05 21:44:03,089 [12] INFO DAO.DaoCustomers - Error inesperadoNo connection string named 'NordwindContext' could be found in the application config file.
+2020-11-05 23:15:46,914 [12] INFO DAO.DaoCustomers - Error inesperadoNo connection string named 'NordwindContext' could be found in the application config file.
+2020-11-05 23:17:21,588 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-05 23:17:21,819 [12] INFO DAO.DaoCustomers - La actulización fue exitosa
+2020-11-05 23:20:24,546 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-05 23:20:24,755 [12] INFO DAO.DaoCustomers - La llamada a Sql tuvo un error en SqlAn error occurred while updating the entries. See the inner exception for details.
+2020-11-05 23:20:57,994 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-05 23:20:58,213 [12] INFO DAO.DaoCustomers - La llamada a Sql tuvo un error en SqlAn error occurred while updating the entries. See the inner exception for details.
+2020-11-05 23:39:11,150 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-05 23:39:11,375 [12] INFO DAO.DaoCustomers - La llamada a Sql tuvo un error en SqlAn error occurred while updating the entries. See the inner exception for details.

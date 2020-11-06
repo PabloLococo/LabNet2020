@@ -66,3 +66,11 @@
 2020-11-05 11:31:59,180 [1] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
 2020-11-05 11:31:59,236 [1] INFO DAO.DaoCustomers - Error inesperadoAn error occurred while updating the entries. See the inner exception for details.
 2020-11-05 11:32:49,837 [1] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-05 19:07:42,311 [1] INFO DAO.DaoCustomers - Llame a Sql para obtener Customer por Id
+2020-11-05 19:07:42,971 [1] INFO DAO.DaoCustomers - Obtuve Customer por Id
+2020-11-05 19:08:48,413 [1] INFO DAO.DaoCustomers - Llame a Sql para obtener Customer por Id
+2020-11-05 19:08:48,940 [1] INFO DAO.DaoCustomers - Obtuve Customer por Id
+2020-11-05 19:09:38,324 [1] INFO DAO.DaoCustomers - Llame a Sql para obtener Customer por Id
+2020-11-05 19:09:38,821 [1] INFO DAO.DaoCustomers - Obtuve Customer por Id
+2020-11-05 19:11:38,496 [1] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-05 19:11:43,860 [1] INFO DAO.DaoCustomers - La llamada a Sql tuvo un error en SqlAn error occurred while updating the entries. See the inner exception for details.

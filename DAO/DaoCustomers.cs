@@ -9,11 +9,15 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using Entities;
+using ResourceAcceess;
+
 
 namespace DAO
 {
     public class DaoCustomers : BaseDao, IAltaBajaMedia<Customers,string>
     {
+
+
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public List<Customers> GetAll()
         {

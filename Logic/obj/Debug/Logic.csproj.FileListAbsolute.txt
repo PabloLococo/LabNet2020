@@ -12,7 +12,6 @@ C:\Users\pablo\source\repos\Ejercicio_3\Logic\bin\Debug\ResourceAcceess.dll.conf
 C:\Users\pablo\source\repos\Ejercicio_3\Logic\bin\Debug\EntityFramework.xml
 C:\Users\pablo\source\repos\Ejercicio_3\Logic\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\pablo\source\repos\Ejercicio_3\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
-C:\Users\pablo\source\repos\Ejercicio_3\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
 C:\Users\pablo\source\repos\Ejercicio_3\Logic\obj\Debug\Logic.csproj.CopyComplete
 C:\Users\pablo\source\repos\Ejercicio_3\Logic\obj\Debug\Logic.dll
 C:\Users\pablo\source\repos\Ejercicio_3\Logic\obj\Debug\Logic.pdb

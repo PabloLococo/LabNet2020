@@ -22,26 +22,79 @@ namespace Logic
 
        public List<Products> ListofProducts ()
         {
-          return  daoProducts.GetAll();
+            try
+            {
+             return daoProducts.GetAll();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+          
         }
 
         public Products Product (int id)
         {
-            return daoProducts.GetbyId(id);
+            try
+            {
+                return daoProducts.GetbyId(id);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            
         }
 
         public void AddNewProduct(Products products)
         {
-            daoProducts.Insert(products);
+            try
+            {
+                daoProducts.Insert(products);
+            }
+            catch (ArgumentException ex)
+            {
+                throw ex;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+         
         }
 
         public void UpdateProduct(Products products)
         {
-            daoProducts.Update(products);
+            try
+            {
+                daoProducts.Update(products);
+            }
+            catch (ArgumentException ex)
+            {
+                throw ex;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            
         }
         public void DeleteProduct(Products products)
         {
-            daoProducts.Delete(products);
+            try
+            {
+                daoProducts.Delete(products);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+          
         }
     }
 }

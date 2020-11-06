@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    interface IAltaBajaMedia <T,S>
+public interface IAltaBajaMedia <T,S>
     {
         List<T> GetAll();
 
