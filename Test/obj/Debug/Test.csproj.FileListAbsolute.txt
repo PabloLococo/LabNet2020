@@ -39,3 +39,4 @@ C:\Users\pablo\source\repos\Ejercicio_3\Test\obj\Debug\Test.pdb
 C:\Users\pablo\source\repos\Ejercicio_3\Test\bin\Debug\Test.dll.config
 C:\Users\pablo\source\repos\Ejercicio_3\Test\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\pablo\source\repos\Ejercicio_3\Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pablo\source\repos\Ejercicio_3\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache

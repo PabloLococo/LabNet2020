@@ -8,3 +8,41 @@
 2020-11-05 23:20:58,213 [12] INFO DAO.DaoCustomers - La llamada a Sql tuvo un error en SqlAn error occurred while updating the entries. See the inner exception for details.
 2020-11-05 23:39:11,150 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
 2020-11-05 23:39:11,375 [12] INFO DAO.DaoCustomers - La llamada a Sql tuvo un error en SqlAn error occurred while updating the entries. See the inner exception for details.
+2020-11-06 12:10:13,808 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-06 12:10:13,818 [12] INFO DAO.DaoCustomers - La actulización fue exitosa
+2020-11-06 12:58:40,562 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-06 12:58:40,572 [12] INFO DAO.DaoCustomers - La actulización fue exitosa
+2020-11-06 13:10:47,696 [12] INFO DAO.DaoCustomers - Llame a Sql para borrar un Customers
+2020-11-06 13:10:50,456 [12] INFO DAO.DaoCustomers - El borrado fue exitoso
+2020-11-06 13:10:50,559 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-06 13:10:50,560 [12] INFO DAO.DaoCustomers - La actulización fue exitosa
+2020-11-06 13:16:19,256 [12] INFO DAO.DaoCustomers - Llame a Sql para borrar un Customers
+2020-11-06 13:16:21,856 [12] INFO DAO.DaoCustomers - El borrado fue exitoso
+2020-11-06 13:16:21,946 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-06 13:16:21,947 [12] INFO DAO.DaoCustomers - La actulización fue exitosa
+2020-11-06 13:17:03,237 [12] INFO DAO.DaoCustomers - Llame a Sql para borrar un Customers
+2020-11-06 13:17:05,965 [12] INFO DAO.DaoCustomers - El borrado fue exitoso
+2020-11-06 13:17:15,825 [12] INFO DAO.DaoCustomers - Llame a Sql para borrar un Customers
+2020-11-06 13:17:18,384 [12] INFO DAO.DaoCustomers - El borrado fue exitoso
+2020-11-06 13:17:18,475 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-06 13:17:18,475 [12] INFO DAO.DaoCustomers - La actulización fue exitosa
+2020-11-06 13:33:00,010 [12] INFO DAO.DaoCustomers - Llame a Sql para borrar un Customers
+2020-11-06 13:33:02,704 [12] INFO DAO.DaoCustomers - El borrado fue exitoso
+2020-11-06 13:33:02,803 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-06 13:33:02,803 [12] INFO DAO.DaoCustomers - La actulización fue exitosa
+2020-11-06 13:33:31,813 [12] INFO DAO.DaoCustomers - Llame a Sql para borrar un Customers
+2020-11-06 13:33:34,454 [12] INFO DAO.DaoCustomers - El borrado fue exitoso
+2020-11-06 13:33:34,552 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-06 13:33:34,552 [12] INFO DAO.DaoCustomers - La actulización fue exitosa
+2020-11-06 13:50:38,064 [12] INFO DAO.DaoCustomers - Llame a Sql para borrar un Customers
+2020-11-06 13:50:40,671 [12] INFO DAO.DaoCustomers - El borrado fue exitoso
+2020-11-06 13:50:40,770 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-06 13:50:40,770 [12] INFO DAO.DaoCustomers - La actulización fue exitosa
+2020-11-06 13:50:40,808 [12] INFO DAO.DaoProducts - Llame a Sql para obtener listOfProducts
+2020-11-06 13:50:40,808 [12] INFO DAO.DaoProducts - Obtuve ListofCustomers
+2020-11-06 13:52:35,955 [12] INFO DAO.DaoCustomers - Llame a Sql para borrar un Customers
+2020-11-06 13:52:38,886 [12] INFO DAO.DaoCustomers - El borrado fue exitoso
+2020-11-06 13:52:38,990 [12] INFO DAO.DaoCustomers - Llamo a Sql para actualizar Customer
+2020-11-06 13:52:38,990 [12] INFO DAO.DaoCustomers - La actulización fue exitosa
+2020-11-06 13:52:39,026 [12] INFO DAO.DaoProducts - Llame a Sql para obtener listOfProducts
+2020-11-06 13:52:39,027 [12] INFO DAO.DaoProducts - Obtuve ListofCustomers

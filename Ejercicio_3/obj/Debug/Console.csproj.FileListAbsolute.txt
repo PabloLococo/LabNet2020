@@ -24,3 +24,4 @@ C:\Users\pablo\source\repos\Ejercicio_3\Ejercicio_3\bin\Debug\log4net.xml
 C:\Users\pablo\source\repos\Ejercicio_3\Ejercicio_3\bin\Debug\DAO.dll
 C:\Users\pablo\source\repos\Ejercicio_3\Ejercicio_3\bin\Debug\DAO.pdb
 C:\Users\pablo\source\repos\Ejercicio_3\Ejercicio_3\bin\Debug\DAO.dll.config
+C:\Users\pablo\source\repos\Ejercicio_3\Ejercicio_3\obj\Debug\Console.csproj.CoreCompileInputs.cache

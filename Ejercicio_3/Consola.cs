@@ -26,33 +26,33 @@ namespace Ejercicio_3
                 Console.WriteLine("Ingrese Dirección");
                 var dirreción = Console.ReadLine();
                 customers_logic.AddNewCustomer(new Customers { CustomerID = idCustomer, CompanyName = nombreCompania, ContactName = nombreContacto, Address = dirreción });
-                var listCustomers = customers_logic.ListCustomers();
-                foreach (Customers customers in listCustomers)
-                {
-                    Console.WriteLine(customers.CustomerID + " " + customers.CompanyName + " " + customers.ContactName + " " + customers.Address);
-                }
-                Console.WriteLine("Buscar por ID");
-                var customerPorId = customers_logic.Customer(Console.ReadLine());
-                Console.WriteLine(customerPorId.CustomerID + " " + customerPorId.ContactName + " " + customerPorId.CompanyName);
+                //var listCustomers = customers_logic.ListCustomers();
+                //foreach (Customers customers in listCustomers)
+                //{
+                //    Console.WriteLine(customers.CustomerID + " " + customers.CompanyName + " " + customers.ContactName + " " + customers.Address);
+                //}
+                //Console.WriteLine("Buscar por ID");
+                //var customerPorId = customers_logic.Customer(Console.ReadLine());
+                //Console.WriteLine(customerPorId.CustomerID + " " + customerPorId.ContactName + " " + customerPorId.CompanyName);
 
 
-                Products_Logic products_Logic = new Products_Logic();
-                Console.WriteLine("Modificar Producto");
-                Console.WriteLine("Ingrese Identificador de Producto");
-                var product = products_Logic.Product(int.Parse(Console.ReadLine()));
-                Console.WriteLine("Ingrese un nuevo Precio");
-                decimal nuevoPrecio = decimal.Parse(Console.ReadLine());
-                product.UnitPrice = nuevoPrecio;
-                products_Logic.UpdateProduct(product);
-                var list_Productos = products_Logic.ListofProducts();
-                Console.WriteLine("Eliminar Producto");
-                Console.WriteLine("Ingrese Identificador de Producto");
-                product = products_Logic.Product(int.Parse(Console.ReadLine()));
-                products_Logic.DeleteProduct(product);
-                foreach (Products products in list_Productos)
-                {
-                    Console.WriteLine(products.ProductID + " " + products.ProductName + " " + products.UnitPrice);
-                }
+                //Products_Logic products_Logic = new Products_Logic();
+                //Console.WriteLine("Modificar Producto");
+                //Console.WriteLine("Ingrese Identificador de Producto");
+                //var product = products_Logic.Product(int.Parse(Console.ReadLine()));
+                //Console.WriteLine("Ingrese un nuevo Precio");
+                //decimal nuevoPrecio = decimal.Parse(Console.ReadLine());
+                //product.UnitPrice = nuevoPrecio;
+                //products_Logic.UpdateProduct(product);
+                //var list_Productos = products_Logic.ListofProducts();
+                //Console.WriteLine("Eliminar Producto");
+                //Console.WriteLine("Ingrese Identificador de Producto");
+                //product = products_Logic.Product(int.Parse(Console.ReadLine()));
+                //products_Logic.DeleteProduct(product);
+                //foreach (Products products in list_Productos)
+                //{
+                //    Console.WriteLine(products.ProductID + " " + products.ProductName + " " + products.UnitPrice);
+                //}
 
 
             }

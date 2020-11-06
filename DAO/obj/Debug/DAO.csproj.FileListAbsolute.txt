@@ -18,3 +18,4 @@ C:\Users\pablo\source\repos\Ejercicio_3\DAO\bin\Debug\log4net.xml
 C:\Users\pablo\source\repos\Ejercicio_3\DAO\obj\Debug\DAO.csproj.CopyComplete
 C:\Users\pablo\source\repos\Ejercicio_3\DAO\obj\Debug\DAO.dll
 C:\Users\pablo\source\repos\Ejercicio_3\DAO\obj\Debug\DAO.pdb
+C:\Users\pablo\source\repos\Ejercicio_3\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache

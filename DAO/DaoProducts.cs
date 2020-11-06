@@ -6,12 +6,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entities;
+using ResourceAcceess;
 
 namespace DAO
 {
     public class DaoProducts : BaseDao, IAltaBajaMedia<Products,int>
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        protected NordwindContext _context;
+        public DaoProducts(NordwindContext context)
+        {
+            this.context = context;
+        }
+        public DaoProducts()
+        {
+            this.context = _context;
+        }
+
+
         public List<Products> GetAll()
         {
             try

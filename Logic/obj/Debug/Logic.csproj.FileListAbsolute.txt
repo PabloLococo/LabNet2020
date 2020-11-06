@@ -21,3 +21,4 @@ C:\Users\pablo\source\repos\Ejercicio_3\Logic\bin\Debug\log4net.dll
 C:\Users\pablo\source\repos\Ejercicio_3\Logic\bin\Debug\DAO.pdb
 C:\Users\pablo\source\repos\Ejercicio_3\Logic\bin\Debug\DAO.dll.config
 C:\Users\pablo\source\repos\Ejercicio_3\Logic\bin\Debug\log4net.xml
+C:\Users\pablo\source\repos\Ejercicio_3\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache

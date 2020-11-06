@@ -8,14 +8,17 @@ namespace DAO
 {
   public abstract  class  BaseDao
     {
-        protected readonly NordwindContext context;
+        protected  NordwindContext context;
 
         public BaseDao()
         {
             this.context = new NordwindContext();
         }
 
-
+        public BaseDao(NordwindContext context)
+        {
+            this.context = context;
+        }
 
 
     }

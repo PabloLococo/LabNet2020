@@ -16,9 +16,19 @@ namespace DAO
 {
     public class DaoCustomers : BaseDao, IAltaBajaMedia<Customers,string>
     {
-
+        
 
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        protected NordwindContext _context;
+        public DaoCustomers(NordwindContext context)
+        {
+            this.context = context;
+        }
+        public DaoCustomers()
+        {
+            this.context = _context;
+        }
         public List<Customers> GetAll()
         {
             try

@@ -11,6 +11,8 @@ namespace Logic
 {
    public class Customers_Logic
     {
+
+
         private DaoCustomers daoCustomers;
 
         public Customers_Logic()
@@ -29,6 +31,7 @@ namespace Logic
                 throw ex;
             }
         }
+
 
 
         public Customers Customer(string id)
