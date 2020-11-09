@@ -1,0 +1,29 @@
+
+
+  body {
+    font-style: oblique;
+    color: white;
+    margin-top: 20px;
+    background: grey;
+  }
+  
+div{
+    margin-right: 1050px;
+    margin-left: 5px;
+    padding-left: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    
+}
+
+
+.IngresarEmpresa{
+   
+    padding-bottom: 5px;
+
+}
+.Por_que_toy_sólito_no_hay_nadie_aquí_a_mi_lado{
+    
+    margin-left: 5px;
+}
