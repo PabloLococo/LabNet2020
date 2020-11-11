@@ -1,0 +1,15 @@
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\bin\Debug\Data_Access.dll.config
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\bin\Debug\Data_Access.dll
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\bin\Debug\Data_Access.pdb
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\bin\Debug\Entities.dll
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\bin\Debug\EntityFramework.dll
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\bin\Debug\Entities.pdb
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\bin\Debug\Entities.dll.config
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\bin\Debug\EntityFramework.xml
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\obj\Debug\Data_Access.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\obj\Debug\Data_Access.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\obj\Debug\Data_Access.csproj.CopyComplete
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\obj\Debug\Data_Access.dll
+C:\Users\pablo\source\repos\Ejercicio_5\Data_Access\obj\Debug\Data_Access.pdb

@@ -1,0 +1,11 @@
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\bin\Debug\Entities.dll.config
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\bin\Debug\Entities.dll
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\bin\Debug\Entities.pdb
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\bin\Debug\EntityFramework.dll
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\bin\Debug\EntityFramework.xml
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\obj\Debug\Entities.dll
+C:\Users\pablo\source\repos\Ejercicio_5\Entities\obj\Debug\Entities.pdb
