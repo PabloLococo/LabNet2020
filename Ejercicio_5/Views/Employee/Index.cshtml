@@ -30,10 +30,12 @@
                 }
             </tbody>
         </table>
+            @using 
+            <input type="submit" class="btn btn-primary" value="Insertar" formmethod="@Url.Action("Insert", "Insert", "Employee")" />
+            <input type="submit" class="btn btn-success" value="Cambiar" formmethod="@Url.Action()" />
+            <input type="submit" class="btn btn-danger" value="Borrar" />
+       
 
-        <input type="submit" class="btn btn-primary" value="Insertar" formmethod="@Url.Action("Insert","Employee")"/>
-        <input type="submit" class="btn btn-success" value="Cambiar"  formmethod="@Url.Action()"/>
-        <input type="submit" class="btn btn-danger"  value="Borrar"/>
 
 
     </div>

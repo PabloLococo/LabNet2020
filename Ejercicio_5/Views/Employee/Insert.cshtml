@@ -12,7 +12,8 @@
 
     <div class="container">
         <h3>Ingrese Empelado</h3>
-        <form action="/action_page.php" class="was-validated">
+        @using (Html.BeginForm("Insert", "Employee", FormMethod.Post))
+        {
             <div class="form-group">
                 <label for="FirstName">Nombre</label>
                 @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
@@ -31,8 +32,8 @@
                 <div class="valid-feedback">valido</div>
                 <div class="invalid-feedback">Ingrese los datos</div>
             </div>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
-        </form>
+            <button type="submit" class="btn btn-primary" value="Insertar">Insertar</button>
+        }
     </div>
 
 </body>

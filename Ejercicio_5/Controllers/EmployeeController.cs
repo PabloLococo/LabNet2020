@@ -1,4 +1,5 @@
 ﻿using Ejercicio_5.Models;
+using Entities;
 using Logic;
 using System;
 using System.Collections.Generic;
@@ -29,6 +30,22 @@ namespace Ejercicio_5.Controllers
         {
             return  View();
 
+        }
+
+        [HttpPost]
+        public ActionResult Insert (EmployeeView employee)
+        {
+            var logic = new Employees_Logic();
+            var employeeEntity = new Employees() { FirstName = employee.FirstName, LastName = employee.LastName, Title = employee.Title };
+            logic.Insert_New_LondonEmployee(employeeEntity);
+            return RedirectToAction("Index");
+        }
+        public ActionResult Delete(EmployeeView employee)
+        {
+            var logic = new Employees_Logic();
+            var employeeEntity = new Employees() { FirstName = employee.FirstName, LastName = employee.LastName, Title = employee.Title };
+            logic.Delete_Employee(employeeEntity);
+            return RedirectToAction("Index");
         }
 
     }
