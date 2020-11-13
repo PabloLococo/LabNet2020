@@ -17,7 +17,7 @@ namespace Ejercicio_5.Controllers
         public ActionResult Index()
         {
             var logic = new Employees_Logic();
-            var employee = logic.List_London_Employees();
+            List<Employees> employee = logic.List_London_Employees();
             List<EmployeeView> employeeViews = (from list_Employees in employee
                                                 orderby list_Employees.LastName ascending
                                                 select new EmployeeView() {
@@ -51,10 +51,15 @@ namespace Ejercicio_5.Controllers
         [HttpPost]
         public ActionResult Insert (EmployeeView employee)
         {
-            var logic = new Employees_Logic();
-            var employeeEntity = new Employees() { FirstName = employee.FirstName, LastName = employee.LastName, Title = employee.Title };
-            logic.Insert_New_LondonEmployee(employeeEntity);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                var logic = new Employees_Logic();
+                var employeeEntity = new Employees() { FirstName = employee.FirstName, LastName = employee.LastName, Title = employee.Title };
+                logic.Insert_New_LondonEmployee(employeeEntity);
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Insert");
+
         }
 
         [HttpPost]

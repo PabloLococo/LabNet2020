@@ -8,30 +8,38 @@
 <body>
     <div class="container">
         <h3>Ingrese Empelado</h3>
- 
-            @using (Html.BeginForm("Insert", "Employee", FormMethod.Post))
-            {
-                <div class="form-group">
-                    <label for="FirstName">Nombre</label>
-                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
-                    <div class="valid-feedback">valido</div>
-                    <div class="invalid-feedback">Ingrese los datos</div>
-                </div>
-                <div class="form-group">
-                    <label for="LastName">Apellido</label>
-                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
-                    <div class="valid-feedback">valido</div>
-                    <div class="invalid-feedback">Ingrese los datos</div>
-                </div>
-                <div class="form-group">
-                    <label for="Title">Titulo</label>
-                    @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
-                    <div class="valid-feedback">valido</div>
-                    <div class="invalid-feedback">Ingrese los datos</div>
-                </div>
-                <button type="submit" class="btn btn-primary" value="Insertar"></button>
-            }
-        
+
+        @using (Html.BeginForm("Insert", "Employee", FormMethod.Post))
+        {
+            @Html.ValidationSummary(true, "no ingreso nada", new { @class = "text-danger"})
+            <div class="form-group">
+                <label for="FirstName">Nombre</label>
+                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.FirstName , "No ingreso Nombre", new {@class ="text-danger"})
+
+            </div>
+            <div class="form-group">
+                <label for="LastName">Apellido</label>
+                @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.LastName, "No ingreso Apellido", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label for="Title">Titulo</label>
+                @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Title, "No ingreso Titulo", new { @class = "text-danger" })
+            </div>
+            <button type="submit" class="btn btn-primary" value="Insertar" id="Submit"></button>
+        }
+       
+
     </div>
 
 </body>
+
+<script>
+    $(document).ready(function () {
+        $("#Submit").click(function (event) {
+            alertify.alert("this is an alert").show();
+         });
+
+</script>

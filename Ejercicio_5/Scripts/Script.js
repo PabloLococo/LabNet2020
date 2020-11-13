@@ -4,3 +4,5 @@ function myFunction() {
   myWindow.document.write("<p>This is 'myWindow'</p>");
   myWindow.opener.document.write("<p>This is the source window!</p>");
 }
+
+
