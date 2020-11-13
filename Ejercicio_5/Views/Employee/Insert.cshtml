@@ -5,35 +5,33 @@
 }
 
 
-<head>
-
-</head>
 <body>
-
     <div class="container">
         <h3>Ingrese Empelado</h3>
-        @using (Html.BeginForm("Insert", "Employee", FormMethod.Post))
-        {
-            <div class="form-group">
-                <label for="FirstName">Nombre</label>
-                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
-                <div class="valid-feedback">valido</div>
-                <div class="invalid-feedback">Ingrese los datos</div>
-            </div>
-            <div class="form-group">
-                <label for="LastName">Apellido</label>
-                @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
-                <div class="valid-feedback">valido</div>
-                <div class="invalid-feedback">Ingrese los datos</div>
-            </div>
-            <div class="form-group">
-                <label for="Title">Titulo</label>
-                @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
-                <div class="valid-feedback">valido</div>
-                <div class="invalid-feedback">Ingrese los datos</div>
-            </div>
-            <button type="submit" class="btn btn-primary" value="Insertar">Insertar</button>
-        }
+ 
+            @using (Html.BeginForm("Insert", "Employee", FormMethod.Post))
+            {
+                <div class="form-group">
+                    <label for="FirstName">Nombre</label>
+                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                    <div class="valid-feedback">valido</div>
+                    <div class="invalid-feedback">Ingrese los datos</div>
+                </div>
+                <div class="form-group">
+                    <label for="LastName">Apellido</label>
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                    <div class="valid-feedback">valido</div>
+                    <div class="invalid-feedback">Ingrese los datos</div>
+                </div>
+                <div class="form-group">
+                    <label for="Title">Titulo</label>
+                    @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+                    <div class="valid-feedback">valido</div>
+                    <div class="invalid-feedback">Ingrese los datos</div>
+                </div>
+                <button type="submit" class="btn btn-primary" value="Insertar"></button>
+            }
+        
     </div>
 
 </body>

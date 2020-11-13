@@ -30,10 +30,8 @@ namespace Logic
         {
             try
             {
-                var emploteeee = employees_DAO.GetAll();
-
-                List<Employees> london_Employees =  employees_DAO.GetAll().Where(r => r.City.Equals("London")).ToList();
-                return london_Employees;
+                List<Employees> list_London_Employees =  employees_DAO.GetAll().Where(r => r.City.Equals("London")).ToList();
+                return list_London_Employees;
             }
             catch (Exception ex)
             {

@@ -12,24 +12,40 @@ namespace Ejercicio_5.Controllers
 {
     public class EmployeeController : Controller
     {
+
         // GET: Employee
         public ActionResult Index()
         {
             var logic = new Employees_Logic();
             var employee = logic.List_London_Employees();
-            List<EmployeeView> employeeViews = (from employees in employee
-                                                orderby employees.LastName ascending
-                                                select new EmployeeView(){
-                                                    FirstName = employees.FirstName,
-                                                    LastName =  employees.LastName,
-                                                    Title    =  employees.Title}).ToList();                                                    
+            List<EmployeeView> employeeViews = (from list_Employees in employee
+                                                orderby list_Employees.LastName ascending
+                                                select new EmployeeView() {
+                                                    Id = list_Employees.EmployeeID,
+                                                    FirstName = list_Employees.FirstName,
+                                                    LastName = list_Employees.LastName,
+                                                    Title = list_Employees.Title }).ToList();
             return View(employeeViews);
+        }
+
+        public ActionResult Update(EmployeeView employee)
+        {
+            ViewBag.Employee = employee;
+            return View(employee);
+        }
+
+        [HttpPost]
+        public ActionResult Updated(EmployeeView employee)
+        {
+            var logic = new Employees_Logic();
+            var employeeEntity = new Employees() { FirstName = employee.FirstName, LastName = employee.LastName, Title = employee.Title , EmployeeID = employee.Id };
+            logic.Update_Employee(employeeEntity);
+            return RedirectToAction("Index");
         }
 
         public ActionResult Insert()
         {
-            return  View();
-
+            return View();
         }
 
         [HttpPost]
@@ -40,10 +56,12 @@ namespace Ejercicio_5.Controllers
             logic.Insert_New_LondonEmployee(employeeEntity);
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
         public ActionResult Delete(EmployeeView employee)
         {
             var logic = new Employees_Logic();
-            var employeeEntity = new Employees() { FirstName = employee.FirstName, LastName = employee.LastName, Title = employee.Title };
+            var employeeEntity = new Employees() {EmployeeID = employee.Id };
             logic.Delete_Employee(employeeEntity);
             return RedirectToAction("Index");
         }

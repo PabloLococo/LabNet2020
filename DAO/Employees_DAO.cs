@@ -59,6 +59,12 @@ namespace DAO
         {
             try
             {
+                Employees employees = context.Employees.FirstOrDefault(r => r.EmployeeID.Equals(entity.EmployeeID));
+                employees.FirstName = entity.FirstName;
+                employees.LastName = entity.LastName;
+                employees.Title = entity.Title;
+
+
                 context.Entry(entity).State = EntityState.Modified;
                 context.SaveChanges();
             }

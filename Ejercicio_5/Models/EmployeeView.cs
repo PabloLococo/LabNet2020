@@ -7,6 +7,7 @@ namespace Ejercicio_5.Models
 {
     public class EmployeeView
     {
+        public int Id { get; set; }
 
         public string FirstName { get; set; }
 

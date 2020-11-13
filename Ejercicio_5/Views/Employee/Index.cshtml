@@ -19,24 +19,31 @@
                 </tr>
             </thead>
             <tbody>
+
                 @foreach (Ejercicio_5.Models.EmployeeView employees in Model)
                 {
-                    <tr>
-
-                        <td>@employees.FirstName</td>
-                        <td>@employees.LastName</td>
-                        <td>@employees.Title</td>
-                    </tr>
+                <tr>
+                    <td>@employees.FirstName</td>
+                    <td>@employees.LastName</td>
+                    <td>@employees.Title</td>
+                    <td>
+                        @using (Html.BeginForm("Update", "Employee", employees))
+                        {
+                            <input type="submit" class="btn btn-success" value="Cambiar" />
+                        }
+                        @using (Html.BeginForm("Delete", "Employee", FormMethod.Post, employees))
+                        {
+                            <input type="submit" class="btn btn-danger" value="Borrar" />
+                        }
+                    </td>
+                </tr>
                 }
             </tbody>
         </table>
-            @using 
-            <input type="submit" class="btn btn-primary" value="Insertar" formmethod="@Url.Action("Insert", "Insert", "Employee")" />
-            <input type="submit" class="btn btn-success" value="Cambiar" formmethod="@Url.Action()" />
-            <input type="submit" class="btn btn-danger" value="Borrar" />
-       
-
-
+        @using (Html.BeginForm("Insert", "Employee",FormMethod.Get))
+        {
+            <input type="submit" class="btn btn-primary" value="Insertar") />
+        }
 
     </div>
 </body>
