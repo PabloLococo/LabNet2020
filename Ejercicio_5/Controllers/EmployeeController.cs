@@ -29,8 +29,7 @@ namespace Ejercicio_5.Controllers
         }
 
         public ActionResult Update(EmployeeView employee)
-        {
-            ViewBag.Employee = employee;
+        {        
             return View(employee);
         }
 

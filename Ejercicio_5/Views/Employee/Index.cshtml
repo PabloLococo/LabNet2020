@@ -21,8 +21,7 @@
             <tbody>
 
                 @foreach (Ejercicio_5.Models.EmployeeView employees in Model)
-                {
-
+                {                        
                 <tr>
                     <td>@employees.FirstName</td>
                     <td>@employees.LastName</td>
@@ -32,7 +31,7 @@
                         {
                             <input type="submit" class="btn btn-success" value="Cambiar" />
                         }
-                        @using (Html.BeginForm("Delete", "Employee", FormMethod.Post, employees))
+                        @using (Html.BeginForm("Delete", "Employee", employees))
                         {
                             <input type="submit" class="btn btn-danger" value="Borrar" />
                         }

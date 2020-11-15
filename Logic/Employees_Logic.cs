@@ -30,7 +30,7 @@ namespace Logic
         {
             try
             {
-                List<Employees> list_London_Employees =  employees_DAO.GetAll().Where(r => r.City.Equals("London")).ToList();
+                var list_London_Employees =  employees_DAO.GetAll().Where(r => r.City.Equals("London")).ToList();
                 return list_London_Employees;
             }
             catch (Exception ex)
