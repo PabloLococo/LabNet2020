@@ -4,31 +4,31 @@
     ViewBag.Title = "Index";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-
-</head>
-<body>
 
     <div class="container">
-      
-            @Html.Label(Model.name, new { @class = "form-control" })
-            @Html.Label(Model.length, new { @class = "form-control" })
+
+        <div class="form-group">
+
+            @using (Html.BeginForm("Index", "Starship", FormMethod.Get))
+            {
+                @Html.TextBox("starshipNumber")
+                <input type="submit" value="Buscar" class="btn btn-primary" />
+            }
+        </div>
+        <div class="jumbotron">
+            @Html.LabelFor(m => m.name, Model.name, new { @class = "form-control" })
+            @Html.LabelFor(m => m.model, Model.model, new { @class = "form-control" })
             @Html.LabelFor(m => m.manufacturer, Model.manufacturer, new { @class = "form-control" })
-            @Html.LabelFor(m => m.cost_in_credits, new { @class = "form-control" })
-            @Html.LabelFor(m => m.length, new { @class = "form-control" })
-            @Html.LabelFor(m => m.max_atmosphering_speed, new { @class = "form-control" })
-            @Html.LabelFor(m => m.crew, new { @class = "form-control" })
-            @Html.LabelFor(m => m.passengers, new { @class = "form-control" })
-            @Html.LabelFor(m => m.cargo_capacity, new { @class = "form-control" })
-            @Html.LabelFor(m => m.consumables, new { @class = "form-control" })
-            @Html.LabelFor(m => m.hyperdrive_rating, new { @class = "form-control" })
-            @Html.LabelFor(m => m.starship_class, new { @class = "form-control" })
-            @Html.LabelFor(m => m.created, new { @class = "form-control" })
-            @Html.LabelFor(m => m.edited, new { @class = "form-control" })
-            <button type="submit" class="btn btn-primary">Submit</button>
-     
+            @Html.LabelFor(m => m.cost_in_credits, Model.cost_in_credits, new { @class = "form-control" })
+            @Html.LabelFor(m => m.length, Model.length, new { @class = "form-control" })
+            @Html.LabelFor(m => m.max_atmosphering_speed, Model.max_atmosphering_speed, new { @class = "form-control" })
+            @Html.LabelFor(m => m.crew, Model.crew, new { @class = "form-control" })
+            @Html.LabelFor(m => m.passengers, Model.passengers, new { @class = "form-control" })
+            @Html.LabelFor(m => m.cargo_capacity, Model.cargo_capacity, new { @class = "form-control" })
+            @Html.LabelFor(m => m.consumables, Model.consumables, new { @class = "form-control" })
+            @Html.LabelFor(m => m.hyperdrive_rating, Model.hyperdrive_rating, new { @class = "form-control" })
+            @Html.LabelFor(m => m.starship_class, Model.starship_class, new { @class = "form-control" })
+            @Html.LabelFor(m => m.created, Model.created.ToString(), new { @class = "form-control" })
+            @Html.LabelFor(m => m.edited, Model.edited.ToString(), new { @class = "form-control" })
+        </div>
     </div>
-</body>
-</html>

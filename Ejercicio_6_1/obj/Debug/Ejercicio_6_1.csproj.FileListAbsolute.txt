@@ -75,7 +75,6 @@ C:\Users\pablo\source\Ejercicio_6_1\Ejercicio_6_1\bin\System.Web.WebPages.Razor.
 C:\Users\pablo\source\Ejercicio_6_1\Ejercicio_6_1\bin\Newtonsoft.Json.xml
 C:\Users\pablo\source\Ejercicio_6_1\Ejercicio_6_1\bin\Antlr3.Runtime.pdb
 C:\Users\pablo\source\Ejercicio_6_1\Ejercicio_6_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\pablo\source\Ejercicio_6_1\Ejercicio_6_1\obj\Debug\Ejercicio_6_1.csproj.CoreCompileInputs.cache
 C:\Users\pablo\source\Ejercicio_6_1\Ejercicio_6_1\obj\Debug\Ejercicio_6_1.csproj.CopyComplete
 C:\Users\pablo\source\Ejercicio_6_1\Ejercicio_6_1\obj\Debug\Ejercicio_6_1.dll
 C:\Users\pablo\source\Ejercicio_6_1\Ejercicio_6_1\obj\Debug\Ejercicio_6_1.pdb
